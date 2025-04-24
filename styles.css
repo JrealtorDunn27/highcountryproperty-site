@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.headshot { width: 80px; height: 80px; border-radius: 50%; }
+.logo { height: 50px; }
+.contact, .about, .listings, .reviews {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px #ccc;
+}
+form { display: grid; gap: 1rem; }
+input, button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+button {
+  background-color: #123b4f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover { background-color: #0d2d3d; }
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.property-card {
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.property-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.property-card h3 { margin: 0.5rem 0; }
+.property-card a {
+  color: #123b4f;
+  font-weight: bold;
+  text-decoration: none;
+}
+.property-card a:hover { text-decoration: underline; }
+.reviews blockquote {
+  font-style: italic;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+.reviews footer {
+  font-weight: bold;
+  color: #555;
+}
+.reviews a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #123b4f;
+}
+footer {
+  background: #123b4f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+footer .qr {
+  margin-top: 0.5rem;
+  width: 90px;
+}
