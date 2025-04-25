@@ -1,0 +1,69 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header.banner {
+  position: relative;
+}
+header.banner img {
+  width: 100%;
+  height: auto;
+}
+.banner-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.banner-text p {
+  font-size: 1.25rem;
+}
+.contact {
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+.about {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.listings {
+  background-color: #e9eff6;
+  padding: 2rem;
+}
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+.property-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+footer {
+  background: #002c59;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+button {
+  background-color: #b70e2b;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #a00d26;
+}
